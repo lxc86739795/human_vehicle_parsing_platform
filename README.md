@@ -28,6 +28,10 @@ A pytorch codebase for human parsing and vehicle parsing.
 - [x] LIP
 - [x] MVP
 
+## Model Zoo
+
+Coming soon ...
+
 ## Citation
 ```BibTeX
 
