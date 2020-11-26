@@ -4,6 +4,8 @@ A pytorch codebase for human parsing and vehicle parsing.
 ## Introduction
 A pytorch codebase for human parsing and vehicle parsing.
 
+&ensp;&ensp;&ensp;&ensp;![Image](./images/human_parsing_vis.png)&ensp;&ensp;![Image](./images/vehicle_parsing_vis.png)
+
 ## Requirements
 
 - Linux or macOS with python ≥ 3.6
