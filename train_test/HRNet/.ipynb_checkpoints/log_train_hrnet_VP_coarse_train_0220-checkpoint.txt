@@ -1,0 +1,309 @@
+Namespace(batch_size=24, cfg='cls_hrnet_w48_sgd_lr5e-2_wd1e-4_bs32_x100.yaml', data_dir='/home/liuxinchen3/notespace/data/vehicle_parsing_dataset', dataset='coarse_train', epochs=150, gpu='0,1,2,3', ignore_label=255, input_size='384,384', learning_rate=0.01, list_path='/home/liuxinchen3/notespace/data/vehicle_parsing_dataset/coarse_train_id.txt', loss='softmax', momentum=0.9, num_classes=10, power=0.9, random_mirror=True, random_scale=True, random_seed=618, restore_from='/home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth', save_num_images=2, save_step=10, snapshot_dir='/home/liuxinchen3/notespace/project/parsing_platform/models/hrnet_vp_coarse_0220', start_epoch=0, start_iters=0, weight_decay=0.0005)
+HRNetV2BN
+-------Load Weight /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+NOT LOAD head.0.0.0.conv1.weight
+NOT LOAD head.0.0.0.bn1.weight
+NOT LOAD head.0.0.0.bn1.bias
+NOT LOAD head.0.0.0.bn1.running_mean
+NOT LOAD head.0.0.0.bn1.running_var
+NOT LOAD head.0.0.0.conv2.weight
+NOT LOAD head.0.0.0.bn2.weight
+NOT LOAD head.0.0.0.bn2.bias
+NOT LOAD head.0.0.0.bn2.running_mean
+NOT LOAD head.0.0.0.bn2.running_var
+NOT LOAD head.0.0.0.conv3.weight
+NOT LOAD head.0.0.0.bn3.weight
+NOT LOAD head.0.0.0.bn3.bias
+NOT LOAD head.0.0.0.bn3.running_mean
+NOT LOAD head.0.0.0.bn3.running_var
+NOT LOAD head.0.0.0.downsample.0.weight
+NOT LOAD head.0.0.0.downsample.1.weight
+NOT LOAD head.0.0.0.downsample.1.bias
+NOT LOAD head.0.0.0.downsample.1.running_mean
+NOT LOAD head.0.0.0.downsample.1.running_var
+NOT LOAD head.0.1.0.conv1.weight
+NOT LOAD head.0.1.0.bn1.weight
+NOT LOAD head.0.1.0.bn1.bias
+NOT LOAD head.0.1.0.bn1.running_mean
+NOT LOAD head.0.1.0.bn1.running_var
+NOT LOAD head.0.1.0.conv2.weight
+NOT LOAD head.0.1.0.bn2.weight
+NOT LOAD head.0.1.0.bn2.bias
+NOT LOAD head.0.1.0.bn2.running_mean
+NOT LOAD head.0.1.0.bn2.running_var
+NOT LOAD head.0.1.0.conv3.weight
+NOT LOAD head.0.1.0.bn3.weight
+NOT LOAD head.0.1.0.bn3.bias
+NOT LOAD head.0.1.0.bn3.running_mean
+NOT LOAD head.0.1.0.bn3.running_var
+NOT LOAD head.0.1.0.downsample.0.weight
+NOT LOAD head.0.1.0.downsample.1.weight
+NOT LOAD head.0.1.0.downsample.1.bias
+NOT LOAD head.0.1.0.downsample.1.running_mean
+NOT LOAD head.0.1.0.downsample.1.running_var
+NOT LOAD head.0.2.0.conv1.weight
+NOT LOAD head.0.2.0.bn1.weight
+NOT LOAD head.0.2.0.bn1.bias
+NOT LOAD head.0.2.0.bn1.running_mean
+NOT LOAD head.0.2.0.bn1.running_var
+NOT LOAD head.0.2.0.conv2.weight
+NOT LOAD head.0.2.0.bn2.weight
+NOT LOAD head.0.2.0.bn2.bias
+NOT LOAD head.0.2.0.bn2.running_mean
+NOT LOAD head.0.2.0.bn2.running_var
+NOT LOAD head.0.2.0.conv3.weight
+NOT LOAD head.0.2.0.bn3.weight
+NOT LOAD head.0.2.0.bn3.bias
+NOT LOAD head.0.2.0.bn3.running_mean
+NOT LOAD head.0.2.0.bn3.running_var
+NOT LOAD head.0.2.0.downsample.0.weight
+NOT LOAD head.0.2.0.downsample.1.weight
+NOT LOAD head.0.2.0.downsample.1.bias
+NOT LOAD head.0.2.0.downsample.1.running_mean
+NOT LOAD head.0.2.0.downsample.1.running_var
+NOT LOAD head.1.0.0.conv1.weight
+NOT LOAD head.1.0.0.bn1.weight
+NOT LOAD head.1.0.0.bn1.bias
+NOT LOAD head.1.0.0.bn1.running_mean
+NOT LOAD head.1.0.0.bn1.running_var
+NOT LOAD head.1.0.0.conv2.weight
+NOT LOAD head.1.0.0.bn2.weight
+NOT LOAD head.1.0.0.bn2.bias
+NOT LOAD head.1.0.0.bn2.running_mean
+NOT LOAD head.1.0.0.bn2.running_var
+NOT LOAD head.1.0.0.conv3.weight
+NOT LOAD head.1.0.0.bn3.weight
+NOT LOAD head.1.0.0.bn3.bias
+NOT LOAD head.1.0.0.bn3.running_mean
+NOT LOAD head.1.0.0.bn3.running_var
+NOT LOAD head.1.0.0.downsample.0.weight
+NOT LOAD head.1.0.0.downsample.1.weight
+NOT LOAD head.1.0.0.downsample.1.bias
+NOT LOAD head.1.0.0.downsample.1.running_mean
+NOT LOAD head.1.0.0.downsample.1.running_var
+NOT LOAD head.1.1.0.conv1.weight
+NOT LOAD head.1.1.0.bn1.weight
+NOT LOAD head.1.1.0.bn1.bias
+NOT LOAD head.1.1.0.bn1.running_mean
+NOT LOAD head.1.1.0.bn1.running_var
+NOT LOAD head.1.1.0.conv2.weight
+NOT LOAD head.1.1.0.bn2.weight
+NOT LOAD head.1.1.0.bn2.bias
+NOT LOAD head.1.1.0.bn2.running_mean
+NOT LOAD head.1.1.0.bn2.running_var
+NOT LOAD head.1.1.0.conv3.weight
+NOT LOAD head.1.1.0.bn3.weight
+NOT LOAD head.1.1.0.bn3.bias
+NOT LOAD head.1.1.0.bn3.running_mean
+NOT LOAD head.1.1.0.bn3.running_var
+NOT LOAD head.1.1.0.downsample.0.weight
+NOT LOAD head.1.1.0.downsample.1.weight
+NOT LOAD head.1.1.0.downsample.1.bias
+NOT LOAD head.1.1.0.downsample.1.running_mean
+NOT LOAD head.1.1.0.downsample.1.running_var
+NOT LOAD head.2.0.0.conv1.weight
+NOT LOAD head.2.0.0.bn1.weight
+NOT LOAD head.2.0.0.bn1.bias
+NOT LOAD head.2.0.0.bn1.running_mean
+NOT LOAD head.2.0.0.bn1.running_var
+NOT LOAD head.2.0.0.conv2.weight
+NOT LOAD head.2.0.0.bn2.weight
+NOT LOAD head.2.0.0.bn2.bias
+NOT LOAD head.2.0.0.bn2.running_mean
+NOT LOAD head.2.0.0.bn2.running_var
+NOT LOAD head.2.0.0.conv3.weight
+NOT LOAD head.2.0.0.bn3.weight
+NOT LOAD head.2.0.0.bn3.bias
+NOT LOAD head.2.0.0.bn3.running_mean
+NOT LOAD head.2.0.0.bn3.running_var
+NOT LOAD head.2.0.0.downsample.0.weight
+NOT LOAD head.2.0.0.downsample.1.weight
+NOT LOAD head.2.0.0.downsample.1.bias
+NOT LOAD head.2.0.0.downsample.1.running_mean
+NOT LOAD head.2.0.0.downsample.1.running_var
+NOT LOAD head.3.0.0.conv1.weight
+NOT LOAD head.3.0.0.bn1.weight
+NOT LOAD head.3.0.0.bn1.bias
+NOT LOAD head.3.0.0.bn1.running_mean
+NOT LOAD head.3.0.0.bn1.running_var
+NOT LOAD head.3.0.0.conv2.weight
+NOT LOAD head.3.0.0.bn2.weight
+NOT LOAD head.3.0.0.bn2.bias
+NOT LOAD head.3.0.0.bn2.running_mean
+NOT LOAD head.3.0.0.bn2.running_var
+NOT LOAD head.3.0.0.conv3.weight
+NOT LOAD head.3.0.0.bn3.weight
+NOT LOAD head.3.0.0.bn3.bias
+NOT LOAD head.3.0.0.bn3.running_mean
+NOT LOAD head.3.0.0.bn3.running_var
+NOT LOAD head.3.0.0.downsample.0.weight
+NOT LOAD head.3.0.0.downsample.1.weight
+NOT LOAD head.3.0.0.downsample.1.bias
+NOT LOAD head.3.0.0.downsample.1.running_mean
+NOT LOAD head.3.0.0.downsample.1.running_var
+NOT LOAD fc.weight
+NOT LOAD fc.bias
+-------Load Weight /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+CrossEntropyLoss()
+-------Loading data...
+Data dir :  /home/liuxinchen3/notespace/data/vehicle_parsing_dataset
+Dataset :  coarse_train
+/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+epoch = 0, iter = 0/16200, lr=0.010000, loss = 3.089102
+epoch = 0, iter = 1/16200, lr=0.009999, loss = 3.038982
+epoch = 0, iter = 2/16200, lr=0.009999, loss = 2.967227
+epoch = 0, iter = 3/16200, lr=0.009998, loss = 2.884292
+epoch = 0, iter = 4/16200, lr=0.009998, loss = 2.759134
+epoch = 0, iter = 5/16200, lr=0.009997, loss = 2.613963
+epoch = 0, iter = 6/16200, lr=0.009997, loss = 2.535350
+epoch = 0, iter = 7/16200, lr=0.009996, loss = 2.367460
+epoch = 0, iter = 8/16200, lr=0.009996, loss = 2.244896
+epoch = 0, iter = 9/16200, lr=0.009995, loss = 2.128453
+epoch = 0, iter = 10/16200, lr=0.009994, loss = 1.952772
+epoch = 0, iter = 11/16200, lr=0.009994, loss = 1.880648
+epoch = 0, iter = 12/16200, lr=0.009993, loss = 1.792262
+epoch = 0, iter = 13/16200, lr=0.009993, loss = 1.666091
+epoch = 0, iter = 14/16200, lr=0.009992, loss = 1.687978
+epoch = 0, iter = 15/16200, lr=0.009992, loss = 1.517900
+epoch = 0, iter = 16/16200, lr=0.009991, loss = 1.495105
+epoch = 0, iter = 17/16200, lr=0.009991, loss = 1.457741
+epoch = 0, iter = 18/16200, lr=0.009990, loss = 1.397154
+epoch = 0, iter = 19/16200, lr=0.009989, loss = 1.265285
+epoch = 0, iter = 20/16200, lr=0.009989, loss = 1.254709
+epoch = 0, iter = 21/16200, lr=0.009988, loss = 1.284386
+epoch = 0, iter = 22/16200, lr=0.009988, loss = 1.160214
+epoch = 0, iter = 23/16200, lr=0.009987, loss = 1.082300
+epoch = 0, iter = 24/16200, lr=0.009987, loss = 1.095346
+epoch = 0, iter = 25/16200, lr=0.009986, loss = 1.078697
+epoch = 0, iter = 26/16200, lr=0.009986, loss = 1.037698
+epoch = 0, iter = 27/16200, lr=0.009985, loss = 1.002609
+epoch = 0, iter = 28/16200, lr=0.009984, loss = 0.960956
+epoch = 0, iter = 29/16200, lr=0.009984, loss = 1.064626
+epoch = 0, iter = 30/16200, lr=0.009983, loss = 0.914411
+epoch = 0, iter = 31/16200, lr=0.009983, loss = 0.900910
+epoch = 0, iter = 32/16200, lr=0.009982, loss = 0.845780
+epoch = 0, iter = 33/16200, lr=0.009982, loss = 0.869239
+epoch = 0, iter = 34/16200, lr=0.009981, loss = 0.895540
+epoch = 0, iter = 35/16200, lr=0.009981, loss = 0.862596
+epoch = 0, iter = 36/16200, lr=0.009980, loss = 0.772213
+epoch = 0, iter = 37/16200, lr=0.009979, loss = 0.785716
+epoch = 0, iter = 38/16200, lr=0.009979, loss = 0.719768
+epoch = 0, iter = 39/16200, lr=0.009978, loss = 0.743386
+epoch = 0, iter = 40/16200, lr=0.009978, loss = 0.768904
+epoch = 0, iter = 41/16200, lr=0.009977, loss = 0.844942
+epoch = 0, iter = 42/16200, lr=0.009977, loss = 0.766090
+epoch = 0, iter = 43/16200, lr=0.009976, loss = 0.675870
+epoch = 0, iter = 44/16200, lr=0.009976, loss = 0.707462
+epoch = 0, iter = 45/16200, lr=0.009975, loss = 0.699962
+epoch = 0, iter = 46/16200, lr=0.009974, loss = 0.717576
+epoch = 0, iter = 47/16200, lr=0.009974, loss = 0.668941
+epoch = 0, iter = 48/16200, lr=0.009973, loss = 0.708042
+epoch = 0, iter = 49/16200, lr=0.009973, loss = 0.668197
+epoch = 0, iter = 50/16200, lr=0.009972, loss = 0.733094
+epoch = 0, iter = 51/16200, lr=0.009972, loss = 0.683096
+epoch = 0, iter = 52/16200, lr=0.009971, loss = 0.691332
+epoch = 0, iter = 53/16200, lr=0.009971, loss = 0.721509
+epoch = 0, iter = 54/16200, lr=0.009970, loss = 0.636855
+epoch = 0, iter = 55/16200, lr=0.009969, loss = 0.641061
+epoch = 0, iter = 56/16200, lr=0.009969, loss = 0.607209
+epoch = 0, iter = 57/16200, lr=0.009968, loss = 0.592505
+epoch = 0, iter = 58/16200, lr=0.009968, loss = 0.580164
+epoch = 0, iter = 59/16200, lr=0.009967, loss = 0.665750
+epoch = 0, iter = 60/16200, lr=0.009967, loss = 0.608265
+epoch = 0, iter = 61/16200, lr=0.009966, loss = 0.635110
+epoch = 0, iter = 62/16200, lr=0.009966, loss = 0.556938
+epoch = 0, iter = 63/16200, lr=0.009965, loss = 0.578552
+epoch = 0, iter = 64/16200, lr=0.009964, loss = 0.575747
+epoch = 0, iter = 65/16200, lr=0.009964, loss = 0.522620
+epoch = 0, iter = 66/16200, lr=0.009963, loss = 0.567715
+epoch = 0, iter = 67/16200, lr=0.009963, loss = 0.650892
+epoch = 0, iter = 68/16200, lr=0.009962, loss = 0.590721
+epoch = 0, iter = 69/16200, lr=0.009962, loss = 0.658680
+epoch = 0, iter = 70/16200, lr=0.009961, loss = 0.509517
+epoch = 0, iter = 71/16200, lr=0.009961, loss = 0.517575
+epoch = 0, iter = 72/16200, lr=0.009960, loss = 0.531533
+epoch = 0, iter = 73/16200, lr=0.009959, loss = 0.570199
+epoch = 0, iter = 74/16200, lr=0.009959, loss = 0.545991
+epoch = 0, iter = 75/16200, lr=0.009958, loss = 0.582242
+epoch = 0, iter = 76/16200, lr=0.009958, loss = 0.581201
+epoch = 0, iter = 77/16200, lr=0.009957, loss = 0.618758
+epoch = 0, iter = 78/16200, lr=0.009957, loss = 0.523467
+epoch = 0, iter = 79/16200, lr=0.009956, loss = 0.566384
+epoch = 0, iter = 80/16200, lr=0.009956, loss = 0.553644
+epoch = 0, iter = 81/16200, lr=0.009955, loss = 0.550808
+epoch = 0, iter = 82/16200, lr=0.009954, loss = 0.476805
+epoch = 0, iter = 83/16200, lr=0.009954, loss = 0.588581
+epoch = 0, iter = 84/16200, lr=0.009953, loss = 0.512561
+epoch = 0, iter = 85/16200, lr=0.009953, loss = 0.611666
+epoch = 0, iter = 86/16200, lr=0.009952, loss = 0.427399
+epoch = 0, iter = 87/16200, lr=0.009952, loss = 0.501517
+epoch = 0, iter = 88/16200, lr=0.009951, loss = 0.565557
+epoch = 0, iter = 89/16200, lr=0.009951, loss = 0.498126
+epoch = 0, iter = 90/16200, lr=0.009950, loss = 0.541861
+epoch = 0, iter = 91/16200, lr=0.009949, loss = 0.438069
+epoch = 0, iter = 92/16200, lr=0.009949, loss = 0.492301
+epoch = 0, iter = 93/16200, lr=0.009948, loss = 0.449475
+epoch = 0, iter = 94/16200, lr=0.009948, loss = 0.500760
+epoch = 0, iter = 95/16200, lr=0.009947, loss = 0.540399
+epoch = 0, iter = 96/16200, lr=0.009947, loss = 0.501195
+epoch = 0, iter = 97/16200, lr=0.009946, loss = 0.450684
+epoch = 0, iter = 98/16200, lr=0.009946, loss = 0.514713
+epoch = 0, iter = 99/16200, lr=0.009945, loss = 0.441260
+epoch = 0, iter = 100/16200, lr=0.009944, loss = 0.451401
+epoch = 0, iter = 101/16200, lr=0.009944, loss = 0.484587
+epoch = 0, iter = 102/16200, lr=0.009943, loss = 0.408233
+epoch = 0, iter = 103/16200, lr=0.009943, loss = 0.503552
+epoch = 0, iter = 104/16200, lr=0.009942, loss = 0.494781
+epoch = 0, iter = 105/16200, lr=0.009942, loss = 0.488642
+epoch = 0, iter = 106/16200, lr=0.009941, loss = 0.421523
+epoch = 0, iter = 107/16200, lr=0.009941, loss = 0.492155
+epoch = 1, iter = 108/16200, lr=0.009940, loss = 0.433103
+epoch = 1, iter = 109/16200, lr=0.009939, loss = 0.380232
+epoch = 1, iter = 110/16200, lr=0.009939, loss = 0.437718
+epoch = 1, iter = 111/16200, lr=0.009938, loss = 0.441571
+epoch = 1, iter = 112/16200, lr=0.009938, loss = 0.392773
+epoch = 1, iter = 113/16200, lr=0.009937, loss = 0.465368
+epoch = 1, iter = 114/16200, lr=0.009937, loss = 0.404550
+epoch = 1, iter = 115/16200, lr=0.009936, loss = 0.482128
+epoch = 1, iter = 116/16200, lr=0.009936, loss = 0.544329
+epoch = 1, iter = 117/16200, lr=0.009935, loss = 0.513326
+epoch = 1, iter = 118/16200, lr=0.009934, loss = 0.417024
+epoch = 1, iter = 119/16200, lr=0.009934, loss = 0.496822
+epoch = 1, iter = 120/16200, lr=0.009933, loss = 0.385666
+epoch = 1, iter = 121/16200, lr=0.009933, loss = 0.422606
+epoch = 1, iter = 122/16200, lr=0.009932, loss = 0.404461
+epoch = 1, iter = 123/16200, lr=0.009932, loss = 0.455389
+epoch = 1, iter = 124/16200, lr=0.009931, loss = 0.381304
+epoch = 1, iter = 125/16200, lr=0.009931, loss = 0.479780
+epoch = 1, iter = 126/16200, lr=0.009930, loss = 0.513088
+epoch = 1, iter = 127/16200, lr=0.009929, loss = 0.378942
+epoch = 1, iter = 128/16200, lr=0.009929, loss = 0.400636
+epoch = 1, iter = 129/16200, lr=0.009928, loss = 0.482287
+epoch = 1, iter = 130/16200, lr=0.009928, loss = 0.491654
+epoch = 1, iter = 131/16200, lr=0.009927, loss = 0.526189
+epoch = 1, iter = 132/16200, lr=0.009927, loss = 0.392750
+epoch = 1, iter = 133/16200, lr=0.009926, loss = 0.420728
+epoch = 1, iter = 134/16200, lr=0.009926, loss = 0.402927
+epoch = 1, iter = 135/16200, lr=0.009925, loss = 0.385039
+epoch = 1, iter = 136/16200, lr=0.009924, loss = 0.370040
+epoch = 1, iter = 137/16200, lr=0.009924, loss = 0.442860
+epoch = 1, iter = 138/16200, lr=0.009923, loss = 0.389541
+epoch = 1, iter = 139/16200, lr=0.009923, loss = 0.393562
+epoch = 1, iter = 140/16200, lr=0.009922, loss = 0.490768
+epoch = 1, iter = 141/16200, lr=0.009922, loss = 0.465462
+epoch = 1, iter = 142/16200, lr=0.009921, loss = 0.427123
+epoch = 1, iter = 143/16200, lr=0.009921, loss = 0.449978
+epoch = 1, iter = 144/16200, lr=0.009920, loss = 0.442511
+epoch = 1, iter = 145/16200, lr=0.009919, loss = 0.487532
+epoch = 1, iter = 146/16200, lr=0.009919, loss = 0.402383
+epoch = 1, iter = 147/16200, lr=0.009918, loss = 0.419243
+epoch = 1, iter = 148/16200, lr=0.009918, loss = 0.417196
+epoch = 1, iter = 149/16200, lr=0.009917, loss = 0.433748
+epoch = 1, iter = 150/16200, lr=0.009917, loss = 0.369153
+epoch = 1, iter = 151/16200, lr=0.009916, loss = 0.452830
+epoch = 1, iter = 152/16200, lr=0.009916, loss = 0.402883
+epoch = 1, iter = 153/16200, lr=0.009915, loss = 0.402559
+epoch = 1, iter = 154/16200, lr=0.009914, loss = 0.401956
+epoch = 1, iter = 155/16200, lr=0.009914, loss = 0.358913
+epoch = 1, iter = 156/16200, lr=0.009913, loss = 0.400116

@@ -1,0 +1,171 @@
+Namespace(batch_size=24, cfg='cls_hrnet_w48_sgd_lr5e-2_wd1e-4_bs32_x100.yaml', data_dir='/home/liuxinchen3/notespace/data/vehicle_parsing_dataset', dataset='coarse_train', epochs=150, gpu='0,1,2,3', ignore_label=255, input_size='384,384', learning_rate=0.01, list_path='/home/liuxinchen3/notespace/data/vehicle_parsing_dataset/coarse_train_id.txt', loss='softmax', momentum=0.9, num_classes=10, power=0.9, random_mirror=True, random_scale=True, random_seed=618, restore_from='/home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth', save_num_images=2, save_step=10, snapshot_dir='/home/liuxinchen3/notespace/project/parsing_platform/models/hrnet_vp_coarse_0229', start_epoch=0, start_iters=0, weight_decay=0.0005)
+HRNetV2BN
+-------Load Weight /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+NOT LOAD head.0.0.0.conv1.weight
+NOT LOAD head.0.0.0.bn1.weight
+NOT LOAD head.0.0.0.bn1.bias
+NOT LOAD head.0.0.0.bn1.running_mean
+NOT LOAD head.0.0.0.bn1.running_var
+NOT LOAD head.0.0.0.conv2.weight
+NOT LOAD head.0.0.0.bn2.weight
+NOT LOAD head.0.0.0.bn2.bias
+NOT LOAD head.0.0.0.bn2.running_mean
+NOT LOAD head.0.0.0.bn2.running_var
+NOT LOAD head.0.0.0.conv3.weight
+NOT LOAD head.0.0.0.bn3.weight
+NOT LOAD head.0.0.0.bn3.bias
+NOT LOAD head.0.0.0.bn3.running_mean
+NOT LOAD head.0.0.0.bn3.running_var
+NOT LOAD head.0.0.0.downsample.0.weight
+NOT LOAD head.0.0.0.downsample.1.weight
+NOT LOAD head.0.0.0.downsample.1.bias
+NOT LOAD head.0.0.0.downsample.1.running_mean
+NOT LOAD head.0.0.0.downsample.1.running_var
+NOT LOAD head.0.1.0.conv1.weight
+NOT LOAD head.0.1.0.bn1.weight
+NOT LOAD head.0.1.0.bn1.bias
+NOT LOAD head.0.1.0.bn1.running_mean
+NOT LOAD head.0.1.0.bn1.running_var
+NOT LOAD head.0.1.0.conv2.weight
+NOT LOAD head.0.1.0.bn2.weight
+NOT LOAD head.0.1.0.bn2.bias
+NOT LOAD head.0.1.0.bn2.running_mean
+NOT LOAD head.0.1.0.bn2.running_var
+NOT LOAD head.0.1.0.conv3.weight
+NOT LOAD head.0.1.0.bn3.weight
+NOT LOAD head.0.1.0.bn3.bias
+NOT LOAD head.0.1.0.bn3.running_mean
+NOT LOAD head.0.1.0.bn3.running_var
+NOT LOAD head.0.1.0.downsample.0.weight
+NOT LOAD head.0.1.0.downsample.1.weight
+NOT LOAD head.0.1.0.downsample.1.bias
+NOT LOAD head.0.1.0.downsample.1.running_mean
+NOT LOAD head.0.1.0.downsample.1.running_var
+NOT LOAD head.0.2.0.conv1.weight
+NOT LOAD head.0.2.0.bn1.weight
+NOT LOAD head.0.2.0.bn1.bias
+NOT LOAD head.0.2.0.bn1.running_mean
+NOT LOAD head.0.2.0.bn1.running_var
+NOT LOAD head.0.2.0.conv2.weight
+NOT LOAD head.0.2.0.bn2.weight
+NOT LOAD head.0.2.0.bn2.bias
+NOT LOAD head.0.2.0.bn2.running_mean
+NOT LOAD head.0.2.0.bn2.running_var
+NOT LOAD head.0.2.0.conv3.weight
+NOT LOAD head.0.2.0.bn3.weight
+NOT LOAD head.0.2.0.bn3.bias
+NOT LOAD head.0.2.0.bn3.running_mean
+NOT LOAD head.0.2.0.bn3.running_var
+NOT LOAD head.0.2.0.downsample.0.weight
+NOT LOAD head.0.2.0.downsample.1.weight
+NOT LOAD head.0.2.0.downsample.1.bias
+NOT LOAD head.0.2.0.downsample.1.running_mean
+NOT LOAD head.0.2.0.downsample.1.running_var
+NOT LOAD head.1.0.0.conv1.weight
+NOT LOAD head.1.0.0.bn1.weight
+NOT LOAD head.1.0.0.bn1.bias
+NOT LOAD head.1.0.0.bn1.running_mean
+NOT LOAD head.1.0.0.bn1.running_var
+NOT LOAD head.1.0.0.conv2.weight
+NOT LOAD head.1.0.0.bn2.weight
+NOT LOAD head.1.0.0.bn2.bias
+NOT LOAD head.1.0.0.bn2.running_mean
+NOT LOAD head.1.0.0.bn2.running_var
+NOT LOAD head.1.0.0.conv3.weight
+NOT LOAD head.1.0.0.bn3.weight
+NOT LOAD head.1.0.0.bn3.bias
+NOT LOAD head.1.0.0.bn3.running_mean
+NOT LOAD head.1.0.0.bn3.running_var
+NOT LOAD head.1.0.0.downsample.0.weight
+NOT LOAD head.1.0.0.downsample.1.weight
+NOT LOAD head.1.0.0.downsample.1.bias
+NOT LOAD head.1.0.0.downsample.1.running_mean
+NOT LOAD head.1.0.0.downsample.1.running_var
+NOT LOAD head.1.1.0.conv1.weight
+NOT LOAD head.1.1.0.bn1.weight
+NOT LOAD head.1.1.0.bn1.bias
+NOT LOAD head.1.1.0.bn1.running_mean
+NOT LOAD head.1.1.0.bn1.running_var
+NOT LOAD head.1.1.0.conv2.weight
+NOT LOAD head.1.1.0.bn2.weight
+NOT LOAD head.1.1.0.bn2.bias
+NOT LOAD head.1.1.0.bn2.running_mean
+NOT LOAD head.1.1.0.bn2.running_var
+NOT LOAD head.1.1.0.conv3.weight
+NOT LOAD head.1.1.0.bn3.weight
+NOT LOAD head.1.1.0.bn3.bias
+NOT LOAD head.1.1.0.bn3.running_mean
+NOT LOAD head.1.1.0.bn3.running_var
+NOT LOAD head.1.1.0.downsample.0.weight
+NOT LOAD head.1.1.0.downsample.1.weight
+NOT LOAD head.1.1.0.downsample.1.bias
+NOT LOAD head.1.1.0.downsample.1.running_mean
+NOT LOAD head.1.1.0.downsample.1.running_var
+NOT LOAD head.2.0.0.conv1.weight
+NOT LOAD head.2.0.0.bn1.weight
+NOT LOAD head.2.0.0.bn1.bias
+NOT LOAD head.2.0.0.bn1.running_mean
+NOT LOAD head.2.0.0.bn1.running_var
+NOT LOAD head.2.0.0.conv2.weight
+NOT LOAD head.2.0.0.bn2.weight
+NOT LOAD head.2.0.0.bn2.bias
+NOT LOAD head.2.0.0.bn2.running_mean
+NOT LOAD head.2.0.0.bn2.running_var
+NOT LOAD head.2.0.0.conv3.weight
+NOT LOAD head.2.0.0.bn3.weight
+NOT LOAD head.2.0.0.bn3.bias
+NOT LOAD head.2.0.0.bn3.running_mean
+NOT LOAD head.2.0.0.bn3.running_var
+NOT LOAD head.2.0.0.downsample.0.weight
+NOT LOAD head.2.0.0.downsample.1.weight
+NOT LOAD head.2.0.0.downsample.1.bias
+NOT LOAD head.2.0.0.downsample.1.running_mean
+NOT LOAD head.2.0.0.downsample.1.running_var
+NOT LOAD head.3.0.0.conv1.weight
+NOT LOAD head.3.0.0.bn1.weight
+NOT LOAD head.3.0.0.bn1.bias
+NOT LOAD head.3.0.0.bn1.running_mean
+NOT LOAD head.3.0.0.bn1.running_var
+NOT LOAD head.3.0.0.conv2.weight
+NOT LOAD head.3.0.0.bn2.weight
+NOT LOAD head.3.0.0.bn2.bias
+NOT LOAD head.3.0.0.bn2.running_mean
+NOT LOAD head.3.0.0.bn2.running_var
+NOT LOAD head.3.0.0.conv3.weight
+NOT LOAD head.3.0.0.bn3.weight
+NOT LOAD head.3.0.0.bn3.bias
+NOT LOAD head.3.0.0.bn3.running_mean
+NOT LOAD head.3.0.0.bn3.running_var
+NOT LOAD head.3.0.0.downsample.0.weight
+NOT LOAD head.3.0.0.downsample.1.weight
+NOT LOAD head.3.0.0.downsample.1.bias
+NOT LOAD head.3.0.0.downsample.1.running_mean
+NOT LOAD head.3.0.0.downsample.1.running_var
+NOT LOAD fc.weight
+NOT LOAD fc.bias
+-------Load Weight /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+CrossEntropyLoss()
+-------Loading data...
+Data dir :  /home/liuxinchen3/notespace/data/vehicle_parsing_dataset
+Dataset :  coarse_train
+/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/nn/modules/upsampling.py:122: UserWarning: nn.Upsampling is deprecated. Use nn.functional.interpolate instead.
+  warnings.warn("nn.Upsampling is deprecated. Use nn.functional.interpolate instead.")
+epoch = 0, iter = 0/24000, lr=0.010000, loss = 2.290025
+epoch = 0, iter = 1/24000, lr=0.010000, loss = 2.265910
+epoch = 0, iter = 2/24000, lr=0.009999, loss = 2.223397
+epoch = 0, iter = 3/24000, lr=0.009999, loss = 2.167273
+epoch = 0, iter = 4/24000, lr=0.009998, loss = 2.119639
+epoch = 0, iter = 5/24000, lr=0.009998, loss = 2.042363
+epoch = 0, iter = 6/24000, lr=0.009998, loss = 1.953235
+epoch = 0, iter = 7/24000, lr=0.009997, loss = 1.899379
+epoch = 0, iter = 8/24000, lr=0.009997, loss = 1.840980
+epoch = 0, iter = 9/24000, lr=0.009997, loss = 1.792676
+epoch = 0, iter = 10/24000, lr=0.009996, loss = 1.757223
+epoch = 0, iter = 11/24000, lr=0.009996, loss = 1.679079
+epoch = 0, iter = 12/24000, lr=0.009995, loss = 1.579877
+epoch = 0, iter = 13/24000, lr=0.009995, loss = 1.569224
+epoch = 0, iter = 14/24000, lr=0.009995, loss = 1.482873
+epoch = 0, iter = 15/24000, lr=0.009994, loss = 1.514964
+epoch = 0, iter = 16/24000, lr=0.009994, loss = 1.338160
+epoch = 0, iter = 17/24000, lr=0.009994, loss = 1.315978
+epoch = 0, iter = 18/24000, lr=0.009993, loss = 1.306942

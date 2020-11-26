@@ -1,0 +1,185 @@
+Namespace(batch_size=2, cfg='cls_hrnet_w48_sgd_lr5e-2_wd1e-4_bs32_x100.yaml', data_dir='/home/liuxinchen3/notespace/data/WeiyiAll/data', dataset='train', epochs=100, gpu='0,1,2,3', ignore_label=255, input_size='2788,1400', learning_rate=0.01, list_path='None', loss='softmax', momentum=0.9, num_classes=11, power=0.9, random_seed=618, restore_from='/home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth', save_step=10, snapshot_dir='/home/liuxinchen3/notespace/project/parsing_platform/train_test/HRNet/models/hrnet_wy_1015_0000', start_epoch=0, start_iters=0, weight_decay=0.0005)
+HRNetV2BN
+-------Load Weight /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+NOT LOAD head.0.0.0.conv1.weight
+NOT LOAD head.0.0.0.bn1.weight
+NOT LOAD head.0.0.0.bn1.bias
+NOT LOAD head.0.0.0.bn1.running_mean
+NOT LOAD head.0.0.0.bn1.running_var
+NOT LOAD head.0.0.0.conv2.weight
+NOT LOAD head.0.0.0.bn2.weight
+NOT LOAD head.0.0.0.bn2.bias
+NOT LOAD head.0.0.0.bn2.running_mean
+NOT LOAD head.0.0.0.bn2.running_var
+NOT LOAD head.0.0.0.conv3.weight
+NOT LOAD head.0.0.0.bn3.weight
+NOT LOAD head.0.0.0.bn3.bias
+NOT LOAD head.0.0.0.bn3.running_mean
+NOT LOAD head.0.0.0.bn3.running_var
+NOT LOAD head.0.0.0.downsample.0.weight
+NOT LOAD head.0.0.0.downsample.1.weight
+NOT LOAD head.0.0.0.downsample.1.bias
+NOT LOAD head.0.0.0.downsample.1.running_mean
+NOT LOAD head.0.0.0.downsample.1.running_var
+NOT LOAD head.0.1.0.conv1.weight
+NOT LOAD head.0.1.0.bn1.weight
+NOT LOAD head.0.1.0.bn1.bias
+NOT LOAD head.0.1.0.bn1.running_mean
+NOT LOAD head.0.1.0.bn1.running_var
+NOT LOAD head.0.1.0.conv2.weight
+NOT LOAD head.0.1.0.bn2.weight
+NOT LOAD head.0.1.0.bn2.bias
+NOT LOAD head.0.1.0.bn2.running_mean
+NOT LOAD head.0.1.0.bn2.running_var
+NOT LOAD head.0.1.0.conv3.weight
+NOT LOAD head.0.1.0.bn3.weight
+NOT LOAD head.0.1.0.bn3.bias
+NOT LOAD head.0.1.0.bn3.running_mean
+NOT LOAD head.0.1.0.bn3.running_var
+NOT LOAD head.0.1.0.downsample.0.weight
+NOT LOAD head.0.1.0.downsample.1.weight
+NOT LOAD head.0.1.0.downsample.1.bias
+NOT LOAD head.0.1.0.downsample.1.running_mean
+NOT LOAD head.0.1.0.downsample.1.running_var
+NOT LOAD head.0.2.0.conv1.weight
+NOT LOAD head.0.2.0.bn1.weight
+NOT LOAD head.0.2.0.bn1.bias
+NOT LOAD head.0.2.0.bn1.running_mean
+NOT LOAD head.0.2.0.bn1.running_var
+NOT LOAD head.0.2.0.conv2.weight
+NOT LOAD head.0.2.0.bn2.weight
+NOT LOAD head.0.2.0.bn2.bias
+NOT LOAD head.0.2.0.bn2.running_mean
+NOT LOAD head.0.2.0.bn2.running_var
+NOT LOAD head.0.2.0.conv3.weight
+NOT LOAD head.0.2.0.bn3.weight
+NOT LOAD head.0.2.0.bn3.bias
+NOT LOAD head.0.2.0.bn3.running_mean
+NOT LOAD head.0.2.0.bn3.running_var
+NOT LOAD head.0.2.0.downsample.0.weight
+NOT LOAD head.0.2.0.downsample.1.weight
+NOT LOAD head.0.2.0.downsample.1.bias
+NOT LOAD head.0.2.0.downsample.1.running_mean
+NOT LOAD head.0.2.0.downsample.1.running_var
+NOT LOAD head.1.0.0.conv1.weight
+NOT LOAD head.1.0.0.bn1.weight
+NOT LOAD head.1.0.0.bn1.bias
+NOT LOAD head.1.0.0.bn1.running_mean
+NOT LOAD head.1.0.0.bn1.running_var
+NOT LOAD head.1.0.0.conv2.weight
+NOT LOAD head.1.0.0.bn2.weight
+NOT LOAD head.1.0.0.bn2.bias
+NOT LOAD head.1.0.0.bn2.running_mean
+NOT LOAD head.1.0.0.bn2.running_var
+NOT LOAD head.1.0.0.conv3.weight
+NOT LOAD head.1.0.0.bn3.weight
+NOT LOAD head.1.0.0.bn3.bias
+NOT LOAD head.1.0.0.bn3.running_mean
+NOT LOAD head.1.0.0.bn3.running_var
+NOT LOAD head.1.0.0.downsample.0.weight
+NOT LOAD head.1.0.0.downsample.1.weight
+NOT LOAD head.1.0.0.downsample.1.bias
+NOT LOAD head.1.0.0.downsample.1.running_mean
+NOT LOAD head.1.0.0.downsample.1.running_var
+NOT LOAD head.1.1.0.conv1.weight
+NOT LOAD head.1.1.0.bn1.weight
+NOT LOAD head.1.1.0.bn1.bias
+NOT LOAD head.1.1.0.bn1.running_mean
+NOT LOAD head.1.1.0.bn1.running_var
+NOT LOAD head.1.1.0.conv2.weight
+NOT LOAD head.1.1.0.bn2.weight
+NOT LOAD head.1.1.0.bn2.bias
+NOT LOAD head.1.1.0.bn2.running_mean
+NOT LOAD head.1.1.0.bn2.running_var
+NOT LOAD head.1.1.0.conv3.weight
+NOT LOAD head.1.1.0.bn3.weight
+NOT LOAD head.1.1.0.bn3.bias
+NOT LOAD head.1.1.0.bn3.running_mean
+NOT LOAD head.1.1.0.bn3.running_var
+NOT LOAD head.1.1.0.downsample.0.weight
+NOT LOAD head.1.1.0.downsample.1.weight
+NOT LOAD head.1.1.0.downsample.1.bias
+NOT LOAD head.1.1.0.downsample.1.running_mean
+NOT LOAD head.1.1.0.downsample.1.running_var
+NOT LOAD head.2.0.0.conv1.weight
+NOT LOAD head.2.0.0.bn1.weight
+NOT LOAD head.2.0.0.bn1.bias
+NOT LOAD head.2.0.0.bn1.running_mean
+NOT LOAD head.2.0.0.bn1.running_var
+NOT LOAD head.2.0.0.conv2.weight
+NOT LOAD head.2.0.0.bn2.weight
+NOT LOAD head.2.0.0.bn2.bias
+NOT LOAD head.2.0.0.bn2.running_mean
+NOT LOAD head.2.0.0.bn2.running_var
+NOT LOAD head.2.0.0.conv3.weight
+NOT LOAD head.2.0.0.bn3.weight
+NOT LOAD head.2.0.0.bn3.bias
+NOT LOAD head.2.0.0.bn3.running_mean
+NOT LOAD head.2.0.0.bn3.running_var
+NOT LOAD head.2.0.0.downsample.0.weight
+NOT LOAD head.2.0.0.downsample.1.weight
+NOT LOAD head.2.0.0.downsample.1.bias
+NOT LOAD head.2.0.0.downsample.1.running_mean
+NOT LOAD head.2.0.0.downsample.1.running_var
+NOT LOAD head.3.0.0.conv1.weight
+NOT LOAD head.3.0.0.bn1.weight
+NOT LOAD head.3.0.0.bn1.bias
+NOT LOAD head.3.0.0.bn1.running_mean
+NOT LOAD head.3.0.0.bn1.running_var
+NOT LOAD head.3.0.0.conv2.weight
+NOT LOAD head.3.0.0.bn2.weight
+NOT LOAD head.3.0.0.bn2.bias
+NOT LOAD head.3.0.0.bn2.running_mean
+NOT LOAD head.3.0.0.bn2.running_var
+NOT LOAD head.3.0.0.conv3.weight
+NOT LOAD head.3.0.0.bn3.weight
+NOT LOAD head.3.0.0.bn3.bias
+NOT LOAD head.3.0.0.bn3.running_mean
+NOT LOAD head.3.0.0.bn3.running_var
+NOT LOAD head.3.0.0.downsample.0.weight
+NOT LOAD head.3.0.0.downsample.1.weight
+NOT LOAD head.3.0.0.downsample.1.bias
+NOT LOAD head.3.0.0.downsample.1.running_mean
+NOT LOAD head.3.0.0.downsample.1.running_var
+NOT LOAD fc.weight
+NOT LOAD fc.bias
+-------Load Weight Finish /home/liuxinchen3/notespace/project/parsing_platform/LIP_models_trained/hrnet_w48-8ef0771d.pth
+OhemCrossEntropy2d(
+  (criterion): CrossEntropyLoss()
+)
+----build transform for training----
+-------Loading data...
+Data dir :  /home/liuxinchen3/notespace/data/WeiyiAll/data
+Dataset :  train Sample Number:  1959
+Traceback (most recent call last):
+  File "train_wy.py", line 270, in <module>
+    main()
+  File "train_wy.py", line 211, in main
+    tng_prefetcher = data_prefetcher_mask(trainloader)
+  File "../../utils/prefetcher.py", line 70, in __init__
+    self.preload()
+  File "../../utils/prefetcher.py", line 74, in preload
+    self.next_input, self.next_mask, self.next_is_rotated = next(self.loader)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 336, in __next__
+    return self._process_next_batch(batch)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 357, in _process_next_batch
+    raise batch.exc_type(batch.exc_msg)
+ValueError: Traceback (most recent call last):
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 106, in _worker_loop
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 106, in <listcomp>
+    samples = collate_fn([dataset[i] for i in batch_indices])
+  File "../../dataset/datasets_wy.py", line 229, in __getitem__
+    im = self.transform(im)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 49, in __call__
+    img = t(img)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 421, in __call__
+    i, j, h, w = self.get_params(img, self.size)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/site-packages/torchvision/transforms/transforms.py", line 399, in get_params
+    i = random.randint(0, h - th)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/random.py", line 222, in randint
+    return self.randrange(a, b+1)
+  File "/home/liuxinchen3/anaconda3/envs/py37torch041/lib/python3.7/random.py", line 200, in randrange
+    raise ValueError("empty range for randrange() (%d,%d, %d)" % (istart, istop, width))
+ValueError: empty range for randrange() (0,-1387, -1387)
+
