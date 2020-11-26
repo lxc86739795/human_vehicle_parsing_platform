@@ -11,9 +11,7 @@ A pytorch codebase for human parsing and vehicle parsing.
 - torchvision that matches the Pytorch installation. You can install them together at [pytorch.org](https://pytorch.org/) to make sure of this.
 - tensorboard (needed for visualization): `pip install tensorboard`
 
-## Benchmark and model zoo
-
-Supported methods:
+## Supported methods
 
 - [x] PSPNet
 - [x] DeepLabV3
@@ -23,6 +21,7 @@ Supported methods:
 - [x] CE2P
 - [x] HRNet
 - [x] BraidNet
+
 
 ## Supported datasets
 
