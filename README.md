@@ -45,7 +45,7 @@ A pytorch codebase for human parsing and vehicle parsing.
 
 \* The performance is evaluated on the test set.
 
-\** The DeepLabV3 model is trained with cross-entropy + IoU loss.
+\** The PSPNet and HRNet models are trained with cross-entropy loss. The DeepLabV3 models are trained with cross-entropy + IoU loss.
 
 ## Citation
 ```BibTeX
