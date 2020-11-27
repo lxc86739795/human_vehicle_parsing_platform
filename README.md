@@ -30,6 +30,11 @@ A pytorch codebase for human parsing and vehicle parsing.
 - [x] Look-Into-Person [LIP](http://sysu-hcp.net/lip/)
 - [x] Multi-grained Vehicle Parsing [MVP](https://xinchenliu.com/MVP.html)
 
+## Train and Test
+
+The scripts to train and test models are in `train_test`.
+The scripts for PSPNet, DeepLabV3, and HRNet are ready for directly running.
+
 ## Model Zoo
 
 **Models trained on the MVP dataset for vehicle parsing**:
