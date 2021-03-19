@@ -2,7 +2,7 @@
 A pytorch codebase for human parsing and vehicle parsing.
 
 ## Introduction
-A pytorch codebase for human parsing and vehicle parsing.
+A pytorch codebase for human parsing and vehicle parsing. The introduction of our new MVP dataset for vehicle parsing can be found [HERE](https://xinchenliu.com/MVP.html).
 
 &ensp;&ensp;&ensp;&ensp;![Image](./images/human_parsing_vis.png)&ensp;&ensp;![Image](./images/vehicle_parsing_vis.png)
 
