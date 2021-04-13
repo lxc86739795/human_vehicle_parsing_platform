@@ -34,6 +34,7 @@ A pytorch codebase for human parsing and vehicle parsing. The introduction of ou
 
 The scripts to train and test models are in `train_test`.
 The scripts for PSPNet, DeepLabV3, and HRNet are ready for directly running.
+The train/val/test splitting files used in our experiments can be found [here](https://github.com/lxc86739795/human_vehicle_parsing_platform/blob/main/split.zip).
 
 ## Model Zoo
 
