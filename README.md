@@ -44,7 +44,7 @@ The train/val/test splitting files used in our experiments can be found [here](h
 | :---: | :---: | :---: |:---: | :---: |:---: |
 | PSPNet | MVP-Coarse | 90.26% | 89.08% | 79.78% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/pspnet_mvp_coarse.pth) |
 | PSPNet | MVP-Fine | 86.21% | 69.61% | 57.47% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/pspnet_mvp_fine.pth) |
-| DeepLabV3 | MVP-Coarse | 90.55% | 89.45% | 80.04% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/deeplabv3_mvp_coarse.pth) |
+| DeepLabV3 | MVP-Coarse | 90.55% | 89.45% | 80.41% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/deeplabv3_mvp_coarse.pth) |
 | DeepLabV3 | MVP-Fine | 87.42% | 73.50% | 61.60% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/deeplabv3_mvp_fine.pth) |
 | HRNet | MVP-Coarse | 90.40% | 89.36% | 80.04% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/hrnet_mvp_coarse.pth) |
 | HRNet | MVP-Fine | 86.47% | 72.62% | 60.21% | [model](https://github.com/lxc86739795/parsing_platform/releases/download/v0.1/hrnet_mvp_fine.pth) |
