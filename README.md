@@ -53,6 +53,8 @@ The train/val/test splitting files used in our experiments can be found [here](h
 
 \** The PSPNet and HRNet models are trained with cross-entropy loss. The DeepLabV3 models are trained with cross-entropy + IoU loss.
 
+\*** We also released several pre-trained model on the LIP dataset. Please refer to [models](https://github.com/lxc86739795/human_vehicle_parsing_platform/releases/tag/v0.1).
+
 ## Citation
 ```BibTeX
 
