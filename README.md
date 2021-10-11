@@ -27,7 +27,7 @@ A pytorch codebase for human parsing and vehicle parsing. The introduction of ou
 
 ## Supported datasets
 
-- [x] Look-Into-Person [LIP](http://sysu-hcp.net/lip/)
+- [x] Look-Into-Person [LIP](https://github.com/lemondan/HumanParsing-Dataset)
 - [x] Multi-grained Vehicle Parsing [MVP](https://xinchenliu.com/MVP.html)
 
 ## Train and Test
